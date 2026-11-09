@@ -1,34 +1,21 @@
 # Gustav
 
-Data engineering and analytics. Stockholm, Sweden.
+Data engineering and analytics in Stockholm. SQL, Python, Snowflake, Power BI.
 
-I like pipelines that can be explained — where the number came from, what it cost to
-produce, and which part breaks first. SQL, Python, Snowflake, Power BI. Most of my
-production work stays in private repos; what is public here is the part I can show.
+I build data platforms and small tools that answer one question properly. Most of my
+production work is private, so this is the shareable part.
 
-## Selected work
+## Projects
 
-**[RiskTree](https://github.com/SvenGustav/Decision-Tree)** — Expected Monetary Value
-decision-tree builder for quantitative risk analysis. Model a decision under uncertainty,
-calculate expected values, compare strategies. React + TypeScript on a React Flow canvas,
-with AI assistance for probability calibration and bias checks.
+RiskTree builds expected monetary value decision trees for risk analysis. Draw the decision,
+set the probabilities, compare outcomes. React and TypeScript.
 
-**[The Unpaid Year](https://github.com/SvenGustav/equal-pay-day-map)** — labour-rights data
-visualisation built for the *Build for Impact* hackathon (Data & AI Stockholm × Lovable,
-May 2025). Turns public pay-gap data into a map you can read in one screen.
+The Unpaid Year maps public pay gap data. Built at the Build for Impact hackathon in
+Stockholm, May 2025.
 
-## Interests
+open-wearables puts wearable health data behind one API. I am working through its ingestion
+and schema layers.
 
-Data platform architecture and warehouse cost. Health and time-series data — currently
-digging through [open-wearables](https://github.com/the-momentum/open-wearables), which
-normalises wearable data behind a single API. Decision analysis under uncertainty.
-Agent-assisted data operations, where the agent has to be auditable rather than clever.
+## Stack
 
-## Toolbox
-
-`SQL` · `Python` · `Snowflake` · `Power BI` · `Sigma` · `DuckDB` · `TypeScript`
-
----
-
-Building something in this space, or want to talk about pipeline cost and data quality?
-Open an issue on any repo here.
+SQL, Python, Snowflake, Power BI, Sigma, DuckDB, TypeScript.
